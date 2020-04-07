@@ -1,0 +1,115 @@
+html{
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	color: #04444b;
+}
+div{
+	display: inline-block;
+}
+.keyboard{
+    display: block;
+	width: 830px;
+    margin: 50px auto 0;
+    padding: 5px;
+    padding-left: 0;
+    padding-bottom: 0;
+    background: #04444b;
+    border: 3px solid #81cfd8;
+    border-radius: 5px;
+    height: 277px;
+}
+.textarea{
+	display: block;
+	width: 830px;
+	margin: 30px auto 0PX;
+}
+textarea{
+	font-size: 18px;
+	width: 100%;
+	resize: none;
+}
+.btn{
+	width: 50px;
+	height: 50px;
+	background-color: #81cfd8;
+	text-align: center;
+	line-height: 50px;
+	margin-bottom: 5px;	
+	margin-left: 5px;
+	cursor: pointer;
+}
+.btn:hover{
+
+}
+.active{
+	background-color: blue;
+	border-radius: 50%;
+	transition: border-radius 0.1s;
+}
+span{
+	pointer-events: none;
+    user-select: none; 
+}
+.hidden{
+	display: none;
+}
+.clearfix{
+	clear: both;
+}
+.Backspace{
+	width: 109px;
+}
+.Tab{
+	width: 54px;
+}
+.CapsLock{
+	width: 88px;
+}
+.Enter{
+	width: 126px;
+}
+.ShiftLeft,
+.ShiftRight{
+	width: 107px;
+}
+.ControlLeft,
+.ControlRight{
+	width: 52px;
+}
+.Space{
+	width: 380px;
+}
+.Delete{
+	display: none;
+}
+.marker{
+	line-height: 30px;
+	position: relative;
+	margin-top: 30px;
+	text-align: center;
+	width: 99vw;
+	border:solid 1px black;
+	pointer-events: none;
+    user-select: none;
+    background-color: #81cfd8;
+}
+.OS{
+	line-height: 30px;
+	margin-top: 30px;
+	width: 99vw;
+	text-align: center;
+	border:solid 1px black;
+	pointer-events: none;
+    user-select: none;
+    background-color: #81cfd8;
+}
+.language{
+	line-height: 30px;
+	margin-top: 30px;
+	width: 99vw;
+	text-align: center;
+	border:solid 1px black;
+	pointer-events: none;
+    user-select: none;
+    background-color: #81cfd8;
+}
